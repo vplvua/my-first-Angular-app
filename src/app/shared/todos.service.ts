@@ -48,4 +48,8 @@ export class TodosServise {
   removeTodo(id: number) {
     this.todos = this.todos.filter((element) => element.id !== id);
   }
+
+  addTodo(todo: Todo) {
+    this.todos.push(todo);
+  }
 }

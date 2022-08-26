@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
     <div class="container">
       <h1>{{ title }}</h1>
       <app-todos></app-todos>
+      <app-todo-form></app-todo-form>
     </div>
   `,
   styles: [
